@@ -1,7 +1,5 @@
-import React from 'react'
-
 type Props = {
-	state: string
+	state: "PLANNED" | "ONGOING" | "DONE"
 }
 
 const Column = ({ state }: Props) => {
