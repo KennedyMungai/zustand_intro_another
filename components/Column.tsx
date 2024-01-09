@@ -3,7 +3,7 @@ type Props = {
 }
 
 const Column = ({ state }: Props) => {
-	return <div className="min-h-[20rem] border border-white">{state}</div>
+	return <div className=" flex flex-1 border border-white min-h-[20rem] m-5 rounded-md">{state}</div>
 }
 
 export default Column
