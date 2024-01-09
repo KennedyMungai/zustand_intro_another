@@ -5,7 +5,7 @@ type Props = {
 }
 
 const Task = ({ title }: Props) => {
-	return <div>{title}</div>
+	return <div className="bg-stone-200 rounded-md min-h-[5rem]">{title}</div>
 }
 
 export default Task
