@@ -3,7 +3,7 @@ type Props = {
 }
 
 const Column = ({ state }: Props) => {
-	return <div>Column</div>
+	return <div>{state}</div>
 }
 
 export default Column
